@@ -14,7 +14,7 @@ type MainActivity() =
     let mutable count : int = 1
     override this.OnCreate(bundle) = 
         base.OnCreate(bundle)
-        t
+        twf
         // Set our view from the "main" layout resource
         this.SetContentView(Resource_Layout.Main)
         // Get our button from the layout resource, and attach an event to it
